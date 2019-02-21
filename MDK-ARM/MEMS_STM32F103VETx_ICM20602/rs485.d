@@ -1,6 +1,6 @@
 mems_stm32f103vetx_icm20602\rs485.o: ..\code\Device\rs485.c
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 mems_stm32f103vetx_icm20602\rs485.o: ../Inc/usart.h
 mems_stm32f103vetx_icm20602\rs485.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 mems_stm32f103vetx_icm20602\rs485.o: ../Inc/stm32f1xx_hal_conf.h
@@ -33,9 +33,9 @@ mems_stm32f103vetx_icm20602\rs485.o: ..\MDK-ARM\rs485.h
 mems_stm32f103vetx_icm20602\rs485.o: ..\code\Global.h
 mems_stm32f103vetx_icm20602\rs485.o: ..\code\Includes.h
 mems_stm32f103vetx_icm20602\rs485.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_usart.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-mems_stm32f103vetx_icm20602\rs485.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+mems_stm32f103vetx_icm20602\rs485.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 mems_stm32f103vetx_icm20602\rs485.o: ..\code\Device\dvc_ICM20602.h

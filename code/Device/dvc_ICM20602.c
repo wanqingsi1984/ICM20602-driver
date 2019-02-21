@@ -102,13 +102,13 @@ void ICM20602_Init(void)
 		// GYRO config
 		ICM20602_DevieceSPI_WriteOneByte(GYRO_CONFIG, (GYRO_250DPS|GYRO_DLPF_ENABLE));
 		HAL_Delay(10);
-		ICM20602_DevieceSPI_WriteOneByte(CONFIG,GYRO_DLPF5_NBW16HZ);
-        HAL_Delay(10);
+		ICM20602_DevieceSPI_WriteOneByte(CONFIG,GYRO_DLPF6_NBW8HZ);
+    HAL_Delay(10);
 		
 		// Accelerate config
 		ICM20602_DevieceSPI_WriteOneByte(ACCEL_CONFIG, ACCEL_8G);
 		HAL_Delay(10);
-		ICM20602_DevieceSPI_WriteOneByte(ACCEL_CONFIG2,ACCEL_DLPF2_NBW121HZ);
+		ICM20602_DevieceSPI_WriteOneByte(ACCEL_CONFIG2,ACCEL_DLPF5_NBW16HZ);
 		HAL_Delay(10);
 		// Set sample rate 1000Hz
 		ICM20602_DevieceSPI_WriteOneByte(SMPLRT_DIV, SAMPLE_RATE_100HZ);

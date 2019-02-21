@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.22.0.0
 Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: liu na, xilang, LIC=9N0AR-KQRF7-ZE5H2-91N4H-WWZZ8-AU2F7
+License Information: liu na, xlkj, LIC=0VR30-BFF7W-SDFK4-F3L6F-EUBXN-X74AC
  
 Tool Versions:
 Toolchain:       MDK-ARM Professional  Version: 5.22
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 4 (build 422)
 Assembler:       Armasm.exe V5.06 update 4 (build 422)
 Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
@@ -25,12 +25,109 @@ D:\MEMS_STM32F103VETx_ICM20602_Qsens\MDK-ARM\MEMS_STM32F103VETx_ICM20602.uvprojx
 Project File Date:  10/08/2018
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'MEMS_STM32F103VETx_ICM20602'
+assembling startup_stm32f103xe.s...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_spi.c...
+compiling stm32f1xx_hal_spi_ex.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling main.c...
+compiling tim.c...
+compiling dma.c...
 compiling spi.c...
+compiling usart.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling Global.c...
+compiling MainEntry.c...
+..\MDK-ARM\dvc_AT24C01.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MDK-ARM\IMU_EEPROM.h(39): warning:  #1-D: last line of file ends without a newline
+  }Cal_Data;
+..\code\MainEntry.c(35): warning:  #177-D: variable "accel"  was declared but never referenced
+  	int16_t accel[3],gyro[3];
+..\code\MainEntry.c(35): warning:  #177-D: variable "gyro"  was declared but never referenced
+  	int16_t accel[3],gyro[3];
+..\code\MainEntry.c(36): warning:  #177-D: variable "temp"  was declared but never referenced
+  	int16_t temp;
+..\code\MainEntry.c(37): warning:  #550-D: variable "IMU_CollectData"  was set but never used
+  	CollectIMUDataDef IMU_CollectData;
+..\code\MainEntry.c(38): warning:  #177-D: variable "ucTmpCnt"  was declared but never referenced
+  	uint8_t ucTmpCnt = 0;
+..\code\MainEntry.c(39): warning:  #177-D: variable "I2cVal_Write"  was declared but never referenced
+  	uint8_t I2cVal_Write[188] = {0};
+..\code\MainEntry.c(41): warning:  #177-D: variable "TableType"  was declared but never referenced
+  	uint32_t TableType=0x01020304;
+..\code\MainEntry.c(42): warning:  #177-D: variable "ProductID"  was declared but never referenced
+  	uint32_t ProductID[2]={0x20180901,0x20180902};
+..\code\MainEntry.c(43): warning:  #177-D: variable "GyroTemp0"  was declared but never referenced
+  	float GyroTemp0[3]={1.1415926,2.1415926,3.1415926};
+..\code\MainEntry.c(44): warning:  #177-D: variable "ReadResult"  was declared but never referenced
+  	uint32_t ReadResult[3]={0};
+..\code\MainEntry.c(45): warning:  #177-D: variable "ReadFloat"  was declared but never referenced
+  	float ReadFloat[3]={0};
+..\code\MainEntry.c(46): warning:  #177-D: variable "Write_Result"  was declared but never referenced
+  	uint8_t Write_Result,Read_CRC;
+..\code\MainEntry.c(46): warning:  #177-D: variable "Read_CRC"  was declared but never referenced
+  	uint8_t Write_Result,Read_CRC;
+..\code\MainEntry.c: 15 warnings, 0 errors
+compiling Device.c...
+..\code\Device\Device.c(34): warning:  #1295-D: Deprecated declaration make_crc32_table - give arg types
+  int make_crc32_table();
+..\code\Device\Device.c: 1 warning, 0 errors
+compiling dvc_AT24C01_NOINOUT.c...
+dvc_AT24C01.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif
+dvc_AT24C01_NOINOUT.c(452): warning:  #1-D: last line of file ends without a newline
+  }
+dvc_AT24C01_NOINOUT.c: 2 warnings, 0 errors
+compiling dvc_ICM20602.c...
+compiling rs485.c...
+..\code\Device\rs485.c(183): warning:  #177-D: variable "ucTmpChk"  was declared but never referenced
+  	uint8_t i,ucTmpChk;
+..\code\Device\rs485.c(326): warning:  #1-D: last line of file ends without a newline
+  }
+..\code\Device\rs485.c: 2 warnings, 0 errors
+compiling Message.c...
+compiling EnhancedSTM32.c...
+compiling IMU_EEPROM.c...
+dvc_AT24C01.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif
+IMU_EEPROM.h(39): warning:  #1-D: last line of file ends without a newline
+  }Cal_Data;
+IMU_EEPROM.c(134): warning:  #1-D: last line of file ends without a newline
+   }
+IMU_EEPROM.c: 3 warnings, 0 errors
+compiling ParseFrame.c...
+compiling msg_Qsens.c...
+..\MDK-ARM\dvc_AT24C01.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\code\Message\msg_Qsens.c(111): warning:  #177-D: variable "SendOver"  was declared but never referenced
+  	uint8_t Read_CRC,Write_Result,SendOver;
+..\code\Message\msg_Qsens.c(112): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+..\code\Message\msg_Qsens.c(113): warning:  #550-D: variable "nCounter"  was set but never used
+  	int nCounter;
+..\code\Message\msg_Qsens.c(114): warning:  #177-D: variable "usFrameCounter"  was declared but never referenced
+  	static unsigned short usFrameCounter = 0;
+..\code\Message\msg_Qsens.c: 5 warnings, 0 errors
 linking...
 Program Size: Code=19810 RO-data=382 RW-data=464 ZI-data=24000  
-"MEMS_STM32F103VETx_ICM20602\MEMS_STM32F103VETx_ICM20602.axf" - 0 Error(s), 0 Warning(s).
+"MEMS_STM32F103VETx_ICM20602\MEMS_STM32F103VETx_ICM20602.axf" - 0 Error(s), 28 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -42,13 +139,13 @@ Package Vendor: ARM
 
 <h2>Collection of Component include folders:</h2>
   D:\MEMS_STM32F103VETx_ICM20602_Qsens\MDK-ARM\RTE\_MEMS_STM32F103VETx_ICM20602
-  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
-  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.0
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:37
 </pre>
 </body>
 </html>

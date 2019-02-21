@@ -599,8 +599,8 @@ ARM Macro Assembler    Page 10
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=mems_stm32f103vetx_icm20602\startup_stm32f103xe.d -omems_stm32f103
 vetx_icm20602\startup_stm32f103xe.o -ID:\MEMS_STM32F103VETx_ICM20602_Qsens\MDK-
-ARM\RTE\_MEMS_STM32F103VETx_ICM20602 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSI
-S\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include --prede
+ARM\RTE\_MEMS_STM32F103VETx_ICM20602 -ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSI
+S\Include -ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include --prede
 fine="__UVISION_VERSION SETA 522" --predefine="_RTE_ SETA 1" --predefine="STM32
 F10X_HD SETA 1" --list=startup_stm32f103xe.lst startup_stm32f103xe.s
 
